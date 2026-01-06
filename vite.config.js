@@ -3,6 +3,7 @@ import topLevelAwait from "vite-plugin-top-level-await";
 
 export default defineConfig({
     build: {
+    base: '/minecraft/',
         sourcemap: true,
         target: 'esnext',
         esbuild: {
